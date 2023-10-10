@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins',sans-serif;
+    }
+
+    body
+    {
+        background-color: #efefe9;
+    }
+
+    .container{
+            /* border : 1px solid black; */
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            padding : 10px;
+            background-color: white;
+        }
+
+        .container .lines 
+        {
+            width: 90%;
+            /* border : 1px solid black; */
+            margin:auto;
+            margin-top : 10px;
+        }
+        .container .head
+        {
+            background-color: #071e48;
+        }
+
+        .container .lines button
+        {
+            width: 100%;
+        }
+        .container h3
+        {  
+            color: white;
+            margin : auto;
+            height : 40px;
+            font-weight: 600;
+        }
+        .container h1
+        {
+            font-weight: 600;
+        }
+
+        .container .split
+        {
+            display: flex;
+            justify-content: flex-start;
+
+        }
+        .container .split input,  .container .split select,  .container .split textarea
+        , .container .split label
+        {
+            width : 40%;
+            margin-right: 40px;            
+        }
+

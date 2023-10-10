@@ -1,0 +1,80 @@
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins',sans-serif;
+        }
+        body{
+            height: 100vh;
+            
+        }
+
+        .container-fluid
+        {
+            width : 100%;
+            display: flex;
+            flex-wrap:wrap;
+            background-color: #071e48;
+            border-radius: 5px;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .container-fluid .logo img
+        {
+            width : 90px;
+            height: 90px;
+        }
+        .container-fluid .logo
+        {
+            width : 20%;
+            display: flex;
+            justify-content: center;
+        }
+        .container-fluid .menu
+        {
+            width : 80%;
+            display: flex;
+            /* border : 2px solid black; */
+        }
+        .menu nav .container-fluid{
+            border: none;
+        }
+
+        .menu .navbar .container-fluid ul li a{
+            font-size: 18px;
+            color : #d2d1d1;
+            border-bottom: 2px solid #071e48;
+        }
+
+        .menu .navbar .container-fluid ul li ul li a{
+            font-size: 16px;
+            color : #d2d1d1;
+            background-color: #071e48;
+            border-bottom: 2px solid #071e48;
+        }
+        .menu .navbar .container-fluid ul li ul li a:hover{
+            font-size: 16px;
+            color : white;
+            border-bottom: 2px solid yellow;
+        }
+
+        .menu .navbar .container-fluid ul li a:hover{
+            color : white;
+            border-bottom: 2px solid yellow;
+        }
+
+        .menu .navbar .nav-item{
+            margin: 10px;
+        }
+        .dropdown-menu{
+           padding :0;
+           border-radius: 15px;
+        }
+
+        .menu nav button
+        {
+            background-color: #53617b;	
+        }
